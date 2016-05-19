@@ -6,3 +6,8 @@
       width: 100%; /* Set width to 100% */
       margin: auto;
 }
+
+p {
+	font-family: "Roboto";
+	font-size: "45sp";
+}
