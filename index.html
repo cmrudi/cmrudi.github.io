@@ -91,6 +91,7 @@
         <li class="text-justify">USB 2.0 host dan device ports dapat digunakan untuk menghubungkan SBC dengan perangkat USB seperti USB Webcam, USB Keyboard, USB mouse dan lain sebagainya.</li>
         <li class="text-justify">RS232 Port sebagai salah satu jalur komunikasi data serial dengan sensor ataupun perangkat lainnya.</li>
         <li class="text-justify">mini PCI Express yang dapat ditambahkan dengan device PCI lainnya contohnya WLAN Card sehingga Intel Galileo dapat berkomunikasi melalui jaringan wireless.</li>
+        <li class="text-justify">Arduino standard pinout yang merupakan input output analog/digital yang memiliki konfigurasi sama dengan board arduino. Input dan output ini dapat digunakan untuk menghubungkan SBC dengan shield arduino ataupun dengan sensor analog/digital.</li>
       </ul>
     </div>
     <div class="col-sm-2">sec2col2last</div>
@@ -117,9 +118,10 @@
     <div class="col-sm-2"></div>
     <div class="col-sm-8">
       <h1>Apa Itu Mikrokontroller?</h1>
-      <p class="text-justify">Mikrokontroler adalah sebuah sistem komputer fungsional berukuran kecil dalam sebuah chip. Di dalamnya terkandung sebuah prosesor, memori (sejumlah kecil RAM, memori program, atau keduanya), dan perlengkapan untuk melakukan input output serta dapat diprogram untuk melakukan tujuan tertentu.</p>
-      <p class="text-justify">Mikrokontroller biasa digunakan untuk melakukan suatu pekerjaan secara otomatis, misalkan sistem kontrol produksi mesin, peralatan medis menggunakan robot, remote control, hingga berbagai embedded system. Dibandingkan produk-produk yang menggunakan microprosessor, memory dan devices input/output secara terpisah, microcontroller jauh lebih mudah dan murah untuk digunakan.</p>
-      <p class="text-justify">Beberapa mikrokontroller menggunakan 4-bit words dan beroperasi pada clock rate dengan frekuensi 4kHz untuk meminimalisir penggunaan energi. Alat ini mampu mempertahankan fungsinya saat waiting sebuah input seperti perubahan tegangan listrik, tombol yang ditekan atau interrupt lain. Konsumsi energi ketika sleeping mode hanya pada hitungan nanowatt, hal ini membuat mikrokontroller cocok untuk penggunaan yang cukup lama.</p>
+      <p class="text-justify">Pendeteksi geteran sebelumnya masih memungkinkan banyak terjadi kesalahan, misalnya ketika alat pendeteksi geteran tersebut ditaruh diatas meja, tentu ketika meja tersebut bergetar akan menyebabkan benda tersebut mendeteksi terjadi gempa. Jikapun alat pendeteksi ini diletakkan di tanah, tentu kita sering merasakan misalnya ada truk berisi muatan maksimum lewat di jalan akan menyebabkan permukaan tanah seperti bergetar dan menyebabkan kesalahan pendeteksian pada alat ini.</p>
+      <p class="text-justify">Oleh karena itu untuk mendeteksi gempa dalam dunia nyata dibutuhkan paling tidak minimal tiga buah peralatan seperti ini yang diletakkan secara berjauhan kemudian ketiga alat ini dihubungkan ke internet.  Sebaiknya alat diletakkan pada jarak 1 - 10 km sebab jika terlalu dekat akan memperbesar kemungkinan penafsiran getaran lokal menjadi gempa namun jika diletakkan terlalu jauh membuat gempa tidak terdeteksi karena terkadang wilayah yang merasakan gempa tidak terlalu luas.</p>
+      <p class="text-justify">Untuk memvalidasi apakah getaran terjadi merupakan getaran gempa atau getaran lokal, dapat dilakukan dengan memvalidasi apakah seluruh alat yang diletakkan berjauhan disini bergetar disebabkan gempa atau bukan.  Jika seluruh alat yang dipasang bergetar secara bersamaan maka getaran tersebub disebabkan oleh gempa bumi, maka jika tidak ketiganya bergetar sekaligus, berarti gempa tersebut hanya disebabkan getaran lokal.
+</p>
     </div>
     <div class="col-sm-2"></div>
   </div>
