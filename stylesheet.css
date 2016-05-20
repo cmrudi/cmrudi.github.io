@@ -2,17 +2,4 @@
   padding:200;
 }
 
-.carousel-inner img {
-      width: 100%; /* Set width to 100% */
-      margin: auto;
-}
 
-p {
-	font-family: sans-serif;
-	font-size: "16px";
-}
-
-#footerweb {
-    position: absolute;
-    bottom: 0;
-}
